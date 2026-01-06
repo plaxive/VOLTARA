@@ -227,7 +227,7 @@ cursor: pointer;
 padding: 2rem 1.5rem;
 background: var(--color-bg-secondary);
 }
-.brand-container h2{
+.brand-container h1{
     padding: 3rem 0;
 }
 .brand-container {
@@ -451,4 +451,5 @@ gap: 1rem;
   }
 
 }
+
 
