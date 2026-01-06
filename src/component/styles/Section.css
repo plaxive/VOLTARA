@@ -183,13 +183,13 @@ width: 150px;
 box-shadow: var(--shadow-soft);
 }
 
-/* =============================
-TREND SECTION
-============================= */
+
 .trend-wrapper {
 padding: 2rem 1.5rem;
 }
-
+.trend-wrapper h2{
+padding: 3rem 0;
+}
 .trend-container {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -222,14 +222,14 @@ color: var(--color-text-primary);
 cursor: pointer;
 }
 
-/* =============================
-BRAND SECTION
-============================= */
+
 .brand-wrapper {
 padding: 2rem 1.5rem;
 background: var(--color-bg-secondary);
 }
-
+.brand-container h2{
+    padding: 3rem 0;
+}
 .brand-container {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -451,3 +451,4 @@ gap: 1rem;
   }
 
 }
+
